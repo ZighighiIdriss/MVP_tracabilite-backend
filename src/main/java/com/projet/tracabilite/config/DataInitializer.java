@@ -87,7 +87,6 @@ public class DataInitializer implements CommandLineRunner {
 
         // ─── 5. Fournisseurs ───────────────────────────────────────────
         initSupplier("FOU-OU-2026-01", "Fournisseur Arômes Casablanca");
-        initSupplier("FOU-OU-2026-02", "Coopérative Rose Kelaat Mgouna");
         log.info(">> [DataInitializer] Fournisseurs vérifiés/insérés.");
 
         // ─── 6. Utilisateurs par défaut (admin + démo) ─────────────────

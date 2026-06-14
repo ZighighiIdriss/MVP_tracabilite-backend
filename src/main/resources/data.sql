@@ -30,10 +30,6 @@ INSERT INTO suppliers (id, supplier_code, name)
 VALUES (1, 'FOU-OU-2026-01', 'Fournisseur Arômes Casablanca')
 ON DUPLICATE KEY UPDATE name=name;
 
-INSERT INTO suppliers (id, supplier_code, name)
-VALUES (2, 'FOU-OU-2026-02', 'Coopérative Rose Kelaat Mgouna')
-ON DUPLICATE KEY UPDATE name=name;
-
 -- Utilisateur démo (pour le mode démo)
 INSERT INTO users (id, email, password)
 VALUES (1, 'demo@tracabilite.ma', 'demo123')
